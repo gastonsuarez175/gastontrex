@@ -1,0 +1,28 @@
+footer{
+    display: grid;
+    grid-area: footer;
+    background-color:$primary-color;
+}
+@media(min-width:768px){
+    footer strong{
+        height: 200px;
+    }
+}
+@media (min-width:1200px) {
+    footer{
+        &:hover{
+        height: 80px;
+        width: 80px;
+        color:lawngreen;
+    }
+
+    }
+    footer strong{
+        font-size: 25px;
+    }
+    footer strong{
+        background-image: url(../imagenes/trex90.jpg);
+       }
+
+
+}
